@@ -14,21 +14,31 @@ O INSIDE é um sistema de integração de dados orientado a ontologia aplicado a
 
 ## Imagens do Sistema
 
-![01 - Página inicial](./src/img/01%20-%20P%C3%A1gina%20inicial.png "01 - Página inicial")
+### Página inicial
 
-![02 - Página de dicionário de dados](./src/img/02%20-%20P%C3%A1gina%20de%20dicion%C3%A1rio%20de%20dados.png "02 - Página de dicionário de dados")
+![01 - Página inicial](./src/img/01%20-%20P%C3%A1gina%20inicial.png "")
+**Figura 1 - Página inicial**
 
-![03 - Página de serviços de dados com busca por termo](./src/img/03%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20com%20busca%20por%20termo.png "03 - Página de serviços de dados com busca por termo")
+![02 - Página de dicionário de dados](./src/img/02%20-%20P%C3%A1gina%20de%20dicion%C3%A1rio%20de%20dados.png)
+**Figura 2 - Página de dicionário de dados**
 
-![04 - Página de serviços de dados - resultado da execução de um serviço](./src/img/04%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20-%20resultado%20da%20execu%C3%A7%C3%A3o%20de%20um%20servi%C3%A7o.png "04 - Página de serviços de dados - resultado da execução de um serviço")
+![03 - Página de serviços de dados com busca por termo](./src/img/03%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20com%20busca%20por%20termo.png)
+**Figura 3 - Página de serviços de dados com busca por termo**
 
-![05 - Página de criação de serviço composto](./src/img/05%20-%20P%C3%A1gina%20de%20cria%C3%A7%C3%A3o%20de%20servi%C3%A7o%20composto.png "05 - Página de criação de serviço composto")
+![04 - Página de serviços de dados - resultado da execução de um serviço](./src/img/04%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20-%20resultado%20da%20execu%C3%A7%C3%A3o%20de%20um%20servi%C3%A7o.png)
+**Figura 4 - Página de serviços de dados. Resultado da execução de um serviço**
 
-![06 - Página de criação de um serviço composto - configuração de uma junção](./src/img/06%20-%20P%C3%A1gina%20de%20cria%C3%A7%C3%A3o%20de%20um%20servi%C3%A7o%20composto%20-%20configura%C3%A7%C3%A3o%20de%20uma%20jun%C3%A7%C3%A3o.png "06 - Página de criação de um serviço composto - configuração de uma junção")
+![05 - Página de criação de serviço composto](./src/img/05%20-%20P%C3%A1gina%20de%20cria%C3%A7%C3%A3o%20de%20servi%C3%A7o%20composto.png)
+**Figura 5 - ágina de criação de serviço composto**
 
-![07 - Página de serviços de dados CFIHOS](./src/img/07%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20CFIHOS.png "07 - Página de serviços de dados CFIHOS")
+![06 - Página de criação de um serviço composto - configuração de uma junção](./src/img/06%20-%20P%C3%A1gina%20de%20cria%C3%A7%C3%A3o%20de%20um%20servi%C3%A7o%20composto%20-%20configura%C3%A7%C3%A3o%20de%20uma%20jun%C3%A7%C3%A3o.png)
+**Figura 6 - Página de criação de um serviço composto. Configuração de uma junção**
 
-![08 -  Página do validador CFIHOS](./src/img/08%20-%20%20P%C3%A1gina%20do%20validador%20CFIHOS.png "08 -  Página do validador CFIHOS")
+![07 - Página de serviços de dados CFIHOS](./src/img/07%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20CFIHOS.png)
+**Figura 7 - Página de serviços de dados CFIHOS**
+
+![08 - Página do validador CFIHOS](./src/img/08%20-%20%20P%C3%A1gina%20do%20validador%20CFIHOS.png)
+**Figura 8 - Página do validador CFIHOS**
 
 ## Ficha Técnica
 
