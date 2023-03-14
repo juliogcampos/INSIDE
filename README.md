@@ -26,7 +26,7 @@ O INSIDE é um sistema de integração de dados orientado a ontologia aplicado a
 **Figura 3 - Página de serviços de dados com busca por termo**
 
 ![04 - Página de serviços de dados - resultado da execução de um serviço](./src/img/04%20-%20P%C3%A1gina%20de%20servi%C3%A7os%20de%20dados%20-%20resultado%20da%20execu%C3%A7%C3%A3o%20de%20um%20servi%C3%A7o.png)
-**Figura 4 - Página de serviços de dados. Resultado da execução de um serviço**
+**Figura 4 - Página de serviços de dados. Resultado da execução de um serviço (dados ocultados)**
 
 ![05 - Página de criação de serviço composto](./src/img/05%20-%20P%C3%A1gina%20de%20cria%C3%A7%C3%A3o%20de%20servi%C3%A7o%20composto.png)
 **Figura 5 - Página de criação de serviço composto**
