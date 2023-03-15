@@ -1,6 +1,6 @@
 # INSIDE - Projeto Interoperabilidade Semântica na Integração de Dados de Engenharia (2020-2023)
 
-O INSIDE é um sistema de integração de dados orientado a ontologia aplicado ao setor de óleo e gás. O sistema tem como objetivos básicos:
+O INSIDE é um sistema de integração de dados orientado a ontologia, aplicado ao setor de óleo e gás. O sistema tem como objetivos básicos:
 
 - Integração de bases de dados estruturadas e heterogêneas como bancos de dados relacionais e planilhas;
 - Representação formal de conhecimento para incorporar significado aos dados e alcançar a interoperabilidade semântica entre sistemas de informação;
@@ -8,9 +8,9 @@ O INSIDE é um sistema de integração de dados orientado a ontologia aplicado a
 
 ## Publicações
 
-- 2020: Estado da arte sobre arquiteturas de sistemas para integração de dados / State of the art on system architectures for data integration. DOI: [https://doi.org/10.48072/2525-7579.rog.2020.414](https://doi.org/10.48072/2525-7579.rog.2020.414)
-- 2021: Hybrid Architecture to Achieve Semantic Interoperability for Engineering Oil and Gas Industry Process. DOI: [https://doi.org/10.1145/3487664.3487782](https://doi.org/10.1145/3487664.3487782)
-- 2022: INSIDE | Interoperabilidade Semântica para Integração de Dados de Engenharia / INSIDE | Semantic Interoperability in Engineering Data Integration. DOI: [https://doi.org/10.48072/2525-7579.rog.2022.351](https://doi.org/10.48072/2525-7579.rog.2022.351)
+- 2020: *Estado da arte sobre arquiteturas de sistemas para integração de dados / State of the art on system architectures for data integration*. DOI: [https://doi.org/10.48072/2525-7579.rog.2020.414](https://doi.org/10.48072/2525-7579.rog.2020.414)
+- 2021: *Hybrid Architecture to Achieve Semantic Interoperability for Engineering Oil and Gas Industry Process*. DOI: [https://doi.org/10.1145/3487664.3487782](https://doi.org/10.1145/3487664.3487782)
+- 2022: *INSIDE | Interoperabilidade Semântica para Integração de Dados de Engenharia / INSIDE | Semantic Interoperability in Engineering Data Integration*. DOI: [https://doi.org/10.48072/2525-7579.rog.2022.351](https://doi.org/10.48072/2525-7579.rog.2022.351)
 
 ## Imagens do Sistema
 
@@ -42,6 +42,5 @@ O INSIDE é um sistema de integração de dados orientado a ontologia aplicado a
 
 ## Ficha Técnica
 
-- Coordenação: [Geiza Maria Hamazaki](geiza.hamazaki@uniriotec.br), [Hugo Fernandes Neves](hugofn@tecgraf.puc-rio.br
-), [Rodrigo Goyannes Gusmão Caiado](rodrigocaiado@tecgraf.puc-rio.br).
-- Pesquisa e desenvolvimento: [Elvismary Molina de Armas](emolina@tecgraf.puc-rio.br), [Júlio Gonçalves Campos](juliogcampos@tecgraf.puc-rio.br), [Vitor Pinheiro de Almeida](valmeida@tecgraf.puc-rio.br).
+- Coordenação: [Eduardo Thadeu Corseuil](thadeu@tecgraf.puc-rio.br), [Fernando Rodrigues Gonzalez](fernando.gonzalez@petrobras.com.br)
+- Pesquisa e desenvolvimento: [Elvismary Molina de Armas](emolina@tecgraf.puc-rio.br), [Geiza Maria Hamazaki da  Silva](geiza.hamazaki@uniriotec.br), [Hugo Fernandes Neves](hugofn@tecgraf.puc-rio.br), [Júlio Gonçalves Campos](juliogcampos@tecgraf.puc-rio.br), [Rodrigo Goyannes Gusmão Caiado](rodrigocaiado@tecgraf.puc-rio.br), [Vitor Pinheiro de Almeida](valmeida@tecgraf.puc-rio.br).
