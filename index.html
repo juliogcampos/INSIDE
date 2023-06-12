@@ -71,7 +71,7 @@
                             {{ index + 1 }} - {{ text }}
                         </div>
                     </div>
-                 </div>
+                </div>
 
                 <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
                     data-slide="prev">
@@ -125,7 +125,8 @@
                             <div class="card-body">
                                 <a v-for="(person, index) in text.inside.team.research"
                                     :href="'mailto:' + person.email">
-                                    {{ person.name }},
+                                    {{ person.name }}
+                                    <span v-if="index">,</span>
                                 </a>
                             </div>
                         </div>
