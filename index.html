@@ -39,10 +39,11 @@
 
                             <p v-if="index === 0">
                                 <i class="fs-4 bi bi-database"></i>
+                                <i class="fs-4 bi bi-filetype-xlsx"></i>
                             </p>
 
                             <p v-if="index === 1">
-                                <i class="fs-4 bi bi-book"></i>
+                                <i class="fs-4 bi bi-share-fill"></i>
                             </p>
 
                             <p v-if="index === 2">
@@ -62,19 +63,15 @@
                 Visão do Sistema
             </h3>
             <div id="carouselExampleCaptions" class="carousel slide border" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li v-for="(page, index) in text.inside.pages" data-target="#carouselExampleCaptions"
-                        :data-slide-to="index" class="active"></li>
-                </ol>
                 <div class="carousel-inner">
                     <div v-for="(text, index) in text.inside.pages" class="carousel-item"
                         :class="[index === 0 ? 'active' : '']">
                         <img :src="'src/img/' + index + '.png'" class="d-block w-100" :alt="text">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>{{ text }}</h5>
+                        <div class="caption text-center text-white bg-dark p-3">
+                            {{ index + 1 }} - {{ text }}
                         </div>
                     </div>
-                </div>
+                 </div>
 
                 <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
                     data-slide="prev">
@@ -114,7 +111,8 @@
                             <h6>Coordenação</h6>
                         </div>
                         <div class="card-body">
-                            <a v-for="(person, index) in text.inside.team.coordination" :href="'mailto:' + person.email">
+                            <a v-for="(person, index) in text.inside.team.coordination"
+                                :href="'mailto:' + person.email">
                                 {{ person.name }},
                             </a>
                         </div>
