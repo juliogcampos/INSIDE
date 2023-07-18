@@ -1,0 +1,34 @@
+.fs-4 {
+    font-size: 4rem !important;
+}
+
+.card {
+    max-width: 640px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+    height: 25%;
+    margin: auto;
+}
+
+.carousel-control-next {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.carousel-control-prev {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: black;
+    opacity: 50%;
+}
+
+.caption {
+    border-top: 1px solid #fff;
+}
