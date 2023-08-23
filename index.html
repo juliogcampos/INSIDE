@@ -104,36 +104,39 @@
             <h3 class="text-center pb-4">
                 Equipe
             </h3>
-            <div class="d-flex justify-content-center text-center">
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-header">
-                            <h6>Coordenação</h6>
-                        </div>
-                        <div class="card-body">
-                            <a v-for="(person, index) in text.inside.team.coordination"
-                                :href="'mailto:' + person.email">
-                                {{ person.name }},
-                            </a>
-                        </div>
+
+            <div class="card-deck text-center">
+                <div class="card">
+                    <div class="card-header">
+                        <h6>Coordenação</h6>
                     </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h6>Pesquisa e Desenvolvimento</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="card-body">
-                                <a v-for="(person, index) in text.inside.team.research"
-                                    :href="'mailto:' + person.email">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" v-for="(person, index) in text.inside.team.coordination">
+                                <a :href="'mailto:' + person.email">
+                                    <i class="bi bi-envelope"></i>
                                     {{ person.name }}
-                                    <span v-if="index">,</span>
                                 </a>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h6>Pesquisa e Desenvolvimento</h6>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" v-for="(person, index) in text.inside.team.research">
+                                <a :href="'mailto:' + person.email">
+                                    <i class="bi bi-envelope"></i>
+                                    {{ person.name }}
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <!-- jQuery 3.5.1 -->
@@ -148,7 +151,7 @@
             crossorigin="anonymous"></script>
 
         <!-- Vue.js 2.7.14 -->
-        <script type="application/javascript"src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/vue@2"></script>
         <script src="./src/js/vue.js"></script>
 </body>
 
