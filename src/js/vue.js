@@ -21,6 +21,12 @@ let app = new Vue({
                 ],
                 publications: [
                     {
+                        year: 2024,
+                        conference: "International Conference on Web Information Systems Engineering - WISE 2023",
+                        title: "A Web Service Oriented Integration Solution for Capital Facilities Information Handover",
+                        doi: "http://dx.doi.org/10.1007/978-981-99-7254-8_30"
+                    },
+                    {
                         year: 2023,
                         conference: "Proceedings of XIX Brazilian Symposium on Information Systems (SBSI ’23)",
                         title: "INSIDE: an Ontology-based Data Integration System Applied to the Oil and Gas Sector",
